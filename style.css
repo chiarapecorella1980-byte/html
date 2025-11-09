@@ -1,82 +1,27 @@
-.testata {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px 16px;
-    background-color: white;
-    border-bottom: 1px solid lightgray;
-
-}
-
-.membership {
-background-color: white;
-color: black;
-border: 1px solid #ccc;
-border-radius: 20px;
-}
-
-.bottone {
-    background-color: rgb(214, 106, 12);
-color: black;
-border: 1px solid #ccc;
-border-radius: 20px;
-
-}
-
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: gray;
-    
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  background-color: #f3f3f3;
 }
 
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-
-
+input, button {
+  padding: 8px;
+  margin: 5px;
 }
 
-p {
-    color: lightgray;
-}
-.layout {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 30px;
-    margin: 25px auto;
-    padding: 0 16px;
-
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
 
-.colonna-articoli {
-    flex: 2;
-    border: 1px;
+button:hover {
+  background-color: #0056b3;
 }
 
-.post {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.testo-post {
-    flex: 5;
-    border: 1px;
-
-}
-
-.post-thumb {
-    flex: 1;
-    width: 50px;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    padding-left: 25px;
-    padding-bottom: 25px;
-}
-
-.sidebar {
-    flex: 1;
-    padding-left: 25px;
-    border-left: 1px solid lightgrey;
+ul {
+  list-style: none;
+  padding: 0;
 }
